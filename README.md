@@ -1,5 +1,5 @@
-# 1. Debian DWM Bootsrap
-Simple script to install suckless [DWM](https://dwm.suckless.org/) on bare minimal Debain 12.
+# 1. Arch DWM Bootsrap
+Simple script to install suckless [DWM](https://dwm.suckless.org/) on bare minimal Arch.
 
 # 2. Prerequisite
 Make sure the user has **sudo** previlidge and the machine has access to the internet.

@@ -1,6 +1,8 @@
 # 1. Arch DWM Bootsrap
 Simple script to install suckless [DWM](https://dwm.suckless.org/) on bare minimal Arch.
 
+![image](arch.png)
+
 # 2. Prerequisite
 Make sure the user has **sudo** previlidge and the machine has access to the internet.
 

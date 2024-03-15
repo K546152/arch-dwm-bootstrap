@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # basic utils
-sudo pacman -S --noconfirm neofetch vim curl htop feh scrot flameshot slock base-devel git libx11 libxft xorg-server xorg-xinit xcompmgr xautolock firefox pipewire wireplumber pipewire-pulse alsa-utils noto-fonts noto-fonts-cjk noto-fonts-emoji && \
+sudo pacman -S --noconfirm neofetch vim curl htop feh scrot flameshot slock base-devel git libx11 libxft xorg-server xorg-xinit xcompmgr xautolock firefox pipewire wireplumber pipewire-pulse alsa-utils noto-fonts noto-fonts-cjk noto-fonts-emoji fcitx5-im fcitx5-chewing fcitx5-qt fcitx5-gtk fcitx5-chinese-addons && \
 
 # DWM git clone
 mkdir ~/.suckless && \
@@ -27,12 +27,10 @@ xcompmgr &
 
 xautolock -time 10 -locker slock &
 
+fcitx5 &
+
 exec dwm
 " > ~/.xinitrc && \
 
 # startx
 startx && \
-
-# feh background
-feh --bg-fill ~/.suckless/bg/bg.jpg
-

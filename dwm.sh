@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # basic utils
-sudo pacman -S --noconfirm neofetch vim curl htop feh scrot flameshot slock base-devel git libx11 libxft xorg-server xorg-xinit xcompmgr xautolock firefox pipewire wireplumber pipewire-pulse alsa-utils noto-fonts noto-fonts-cjk noto-fonts-emoji fcitx5-im fcitx5-chewing fcitx5-qt fcitx5-gtk fcitx5-chinese-addons && \
+sudo pacman -S --noconfirm neofetch vim curl htop feh scrot flameshot slock base-devel git libx11 libxft xorg-server xorg-xinit xcompmgr xautolock xorg-xrandr firefox pipewire wireplumber pipewire-pulse alsa-utils noto-fonts noto-fonts-cjk noto-fonts-emoji fcitx5-im fcitx5-chewing fcitx5-qt fcitx5-gtk fcitx5-chinese-addons ufw && \
 
 # DWM git clone
 mkdir ~/.suckless && \

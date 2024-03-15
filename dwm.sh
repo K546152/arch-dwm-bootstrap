@@ -33,4 +33,4 @@ exec dwm
 " > ~/.xinitrc && \
 
 # startx
-startx && \
+startx

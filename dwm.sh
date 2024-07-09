@@ -6,7 +6,7 @@ sudo pacman -S --noconfirm neofetch vim curl htop feh scrot flameshot slock base
 # DWM git clone
 mkdir ~/.suckless && \
 
-git clone https://github.com/Kouei-Lin/dwm-dotfiles ~/.suckless && \
+git clone https://github.com/K546152/dwm-dotfiles ~/.suckless && \
 
 # DWM make install
 cd ~/.suckless/dwm && sudo make clean install && \

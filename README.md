@@ -10,7 +10,7 @@ Make sure the user has **sudo** previlidge and the machine has access to the int
 
 ```
 $ sudo pacman -S git
-$ git clone https://github.com/Kouei-Lin/arch-dwm-bootstrap ~/arch-dwm-bootstrap
+$ git clone https://github.com/K546152/arch-dwm-bootstrap ~/arch-dwm-bootstrap
 ```
 
 # 4. Run the script

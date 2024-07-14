@@ -15,16 +15,7 @@ Section "InputClass"
     Identifier "touchpad catchall"
     Driver "libinput"
     Option "Tapping" "on"
-    Option "NaturalScrolling" "on"
 EndSection
-
-# /etc/X11/xorg.conf.d/40-mouse.conf
-Section "InputClass"
-    Identifier "mouse"
-    Driver "libinput"
-    Option "NaturalScrolling" "false"
-EndSection
-
 
 # /etc/udev/rules.d/99-hidraw-permission.rules
 KERNEL=="hidraw*", SUBSYSTEM=="hidraw", MODE="0666"
